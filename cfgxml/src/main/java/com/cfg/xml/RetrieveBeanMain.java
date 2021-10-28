@@ -13,5 +13,8 @@ public class RetrieveBeanMain {
 
         //use bean
         System.out.println(user.getName());
+
+        //close context
+        context.close();
     }
 }
