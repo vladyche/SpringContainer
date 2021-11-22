@@ -13,4 +13,14 @@
 
     </bean>
 
+    <bean id="dog"
+          class="com.cfg.xml.entity.Dog">
+
+    </bean>
+
+    <bean id="cat"
+          class="com.cfg.xml.entity.Cat">
+
+    </bean>
+
 </beans>
