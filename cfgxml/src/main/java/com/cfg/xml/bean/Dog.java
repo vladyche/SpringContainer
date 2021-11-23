@@ -1,4 +1,4 @@
-package com.cfg.xml.entity;
+package com.cfg.xml.bean;
 
 public class Dog implements Animal{
     private String breed = "Airedale Terrier";

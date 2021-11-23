@@ -1,7 +1,7 @@
 package com.cfg.xml;
 
-import com.cfg.xml.entity.Animal;
-import com.cfg.xml.entity.User;
+import com.cfg.xml.bean.Animal;
+import com.cfg.xml.bean.User;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class RetrieveBeanMain {

@@ -8,19 +8,13 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!-- bean configuration -->
-    <bean id="user"
-          class="com.cfg.xml.bean.User">
-
+    <bean id="articleDao"
+          class="com.cfg.xml.dao.ArticleDaoImpl">
     </bean>
 
-    <bean id="dog"
-          class="com.cfg.xml.bean.Dog">
-
-    </bean>
-
-    <bean id="cat"
-          class="com.cfg.xml.bean.Cat">
-
+    <bean id="articleService"
+          class="com.cfg.xml.service.ArticleServiceImpl">
+        <constructor-arg ref="articleDao" />
     </bean>
 
 </beans>
