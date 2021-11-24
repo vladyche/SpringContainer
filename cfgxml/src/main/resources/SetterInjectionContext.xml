@@ -14,7 +14,7 @@
 
     <bean id="post"
           class="com.cfg.xml.bean.Post">
-        <property name="postInfo" ref="postInfo" />
+        <property name="postInformation" ref="postInfo" />
     </bean>
 
 </beans>

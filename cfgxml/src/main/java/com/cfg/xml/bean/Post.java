@@ -7,7 +7,9 @@ public class Post {
         return postInfo.getInfo();
     }
 
-    public void setPostInfo(PostInfo postInfo) {
+    //<property name="postInformation" ref="postInfo" />
+    //setPostInformation => name="postInformation"
+    public void setPostInformation(PostInfo postInfo) {
         this.postInfo = postInfo;
     }
 }
