@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class ConstructorInjectionMain {
     public static void main(String[] args){
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("RetrieveBeanContext.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("BeanContext.xml");
 
         ArticleService articleService = context.getBean("articles", ArticleService.class);
 
